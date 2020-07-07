@@ -1,9 +1,7 @@
 package com.soohyun.run;
 
 public class Run {
-
-	public static void main(String[] args) {
-		System.out.println("hello world");
-	}
-
+	 public static void main(String[] args) {
+	        System.out.println("Hello world!");
+	 }
 }

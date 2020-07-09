@@ -8,7 +8,11 @@ public class AandBandC {
 	     int A = sc.nextInt();
 	     int B = sc.nextInt();
 	     int C = sc.nextInt();
+<<<<<<< HEAD
 	     
+=======
+
+>>>>>>> refs/remotes/origin/master
 	     System.out.println((A+B)%C);
 	     System.out.println(((A%C) + (B%C))%C);
 	     System.out.println((A*B)%C);

@@ -11,7 +11,14 @@ public class Sum {
 	        int sum = 0;
 	        for(int i=0; i<=num; i++) {
 	        	sum = sum + i;
+<<<<<<< HEAD
 	        }
 	        System.out.println(sum);
+=======
+	       
+	        	System.out.println(sum);
+	        }
+	      //  System.out.println(sum);
+>>>>>>> refs/remotes/origin/master
 	    }
 }

@@ -16,7 +16,6 @@ public class ThreeMultThree {
 		
 		int[] tArr = {one, two, three};
 		
-		System.out.println(tArr.toString());
 		for(int i=0; i<tArr.length; i++) {
 			System.out.println(tArr[i]);
 		}

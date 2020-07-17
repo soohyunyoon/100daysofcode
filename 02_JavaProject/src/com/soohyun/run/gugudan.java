@@ -2,7 +2,7 @@ package com.soohyun.run;
 
 import java.util.Scanner;
 
-public class Gugudan {
+public class gugudan {
 
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

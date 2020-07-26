@@ -1,5 +1,4 @@
 package com.soohyun.run;
-
 import java.util.Scanner;
 
 public class ForStar {
@@ -13,5 +12,5 @@ public class ForStar {
 		        }
 		        System.out.println();
 	        }
-	    }
+	 }
 }

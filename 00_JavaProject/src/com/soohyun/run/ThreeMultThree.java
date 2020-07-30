@@ -8,18 +8,15 @@ public class ThreeMultThree {
 		
 		Scanner sc = new Scanner(System.in);
 		int oneNum = sc.nextInt();
-		sc.nextLine();
-		String twoNum = sc.nextLine();
-		char one = twoNum.toString().charAt(0);
-		char two = twoNum.toString().charAt(1);
-		char three = twoNum.toString().charAt(2);
+		int twoNum = sc.nextInt();
 		
-		int[] tArr = {one, two, three};
-		
-		System.out.println(tArr.toString());
-		for(int i=0; i<tArr.length; i++) {
-			System.out.println(tArr[i]);
-		}
+		int ill = twoNum % 10;
+		System.out.println(oneNum * ill);
+		int e = (twoNum/10)%10;
+		System.out.println(oneNum * e);
+		int sam = twoNum/100;
+		System.out.println(oneNum * sam);
+		System.out.println(oneNum * ill + (oneNum * e) * 10 + (oneNum * sam) * 100 );
 		
 	}
 

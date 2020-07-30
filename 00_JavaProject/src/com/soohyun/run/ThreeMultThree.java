@@ -10,7 +10,7 @@ public class ThreeMultThree {
 		int oneNum = sc.nextInt();
 		int twoNum = sc.nextInt();
 		
-		// ¼¼ ÀÚ¸® ¼ö , ¼¼ ÀÚ¸® ¼ö °öÇÏ±â.
+		//ì„¸ ìë¦¬ ìˆ˜, ì„¸ ìë¦¬ ìˆ˜ ê³±í•˜ê¸°
 		
 		int one = twoNum % 10;
 		int firstNum = oneNum * one;
